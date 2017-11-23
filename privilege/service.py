@@ -46,3 +46,14 @@ class LoginService(object):
         token = Signature.encodeJwt(user['id'], user['role_id'], remember)
         return {'token': token, 'userId': user['id'], 'username': user['name']}
 
+
+class OperationService(object):
+    @staticmethod
+    def is_guest_operation(path):
+        """
+        判断是否是游客可以访问的资源
+        """
+        # TODO
+        if path == '/demo/privilege/login/':
+            return True
+        return False

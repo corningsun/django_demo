@@ -83,3 +83,13 @@ class Message:
     SMS_TOO_MANY_EXCEPTION = '您今天发送过于频繁，请改日再试！'
     USER_EXISTS_YES = 'YES'
     USER_EXISTS_NO = 'NO'
+
+
+class Constant:
+    EXPIRES_TIME = 7 * 24 * 3600
+    DEFAULT_EXPIRES_TIME = 1 * 24 * 3600
+
+
+class CommonStatus:
+    NORMAL = '1'
+    DISABLE = '0'

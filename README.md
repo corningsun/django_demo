@@ -14,7 +14,7 @@ django 示例项目，增加了基于 jwt 的 token 验证功能。
 4. `python manage.py runserver 0.0.0.0:8000`
 
 ## 数据库相关
-默认sqlite数据，如果需要使用其他数据库，可以修改`demo/setting.py/DATABASES`
+默认sqlite数据，如果需要使用其他数据库，可以修改`demo/settings.py/DATABASES`
 
 ```python
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
